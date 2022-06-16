@@ -113,16 +113,16 @@ class MainActivity : AppCompatActivity() {
         tvResult.text=total.toString()
     }
     fun minus (num1:Double,num2:Double){
-        val total=num1-num2
-        tvResult.text=total.toString()
+        val sub=num1-num2
+        tvResult.text=sub.toString()
     }
     fun divide (num1:Double,num2:Double){
-        val total=num1/num2
-        tvResult.text=total.toString()
+        val div=num1/num2
+        tvResult.text=div.toString()
     }
     fun modulus (num1:Double,num2:Double){
-        val total=num1%num2
-        tvResult.text=total.toString()
+        val module=num1%num2
+        tvResult.text=module.toString()
     }
 
 }
