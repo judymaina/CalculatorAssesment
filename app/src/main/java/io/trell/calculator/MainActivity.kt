@@ -5,13 +5,14 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 
 class MainActivity : AppCompatActivity() {
     lateinit var tilFirstnumber: TextInputLayout
-    lateinit var etFirstnumber: EditText
+    lateinit var etFirstnumber:TextInputEditText
     lateinit var tilSecondnumber:TextInputLayout
-    lateinit var etSecondnumber:EditText
+    lateinit var etSecondnumber:TextInputEditText
     lateinit var btnAdd: Button
     lateinit var btnSubtract: Button
     lateinit var btnDivision: Button
